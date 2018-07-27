@@ -1,4 +1,4 @@
-@import './themes';
+@import 'themes';
 
 @mixin bootstrap-rtl() {
   .btn-group:not(.btn-divided-group) > .btn:not(.dropdown-toggle) {

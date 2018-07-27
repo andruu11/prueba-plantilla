@@ -39,6 +39,7 @@ import {
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
 } from './layouts';
+
 import { DEFAULT_THEME } from './styles/theme.default';
 import { COSMIC_THEME } from './styles/theme.cosmic';
 import { CORPORATE_THEME } from './styles/theme.corporate';
@@ -88,6 +89,7 @@ const PIPES = [
   RoundPipe,
   TimingPipe,
 ];
+
 
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot(

@@ -2,16 +2,16 @@
 @import 'themes';
 
 // framework component themes (styles tied to theme variables)
-@import '~@nebular/theme/styles/globals';
-@import '~@nebular/auth/styles/all';
+@import '../../../../node_modules/@nebular/theme/styles/globals';
+@import '../../../../node_modules/@nebular/auth/styles/all';
 
 // global app font size
-@import './font-size';
+@import 'font-size';
 
 // loading progress bar theme
-@import './pace.theme';
+@import 'pace.theme';
 
-@import './bootstrap-rtl';
+@import 'bootstrap-rtl';
 
 // install the framework and custom global styles
 @include nb-install() {
